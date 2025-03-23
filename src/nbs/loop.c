@@ -2,22 +2,31 @@
 
 int main()
 {
-    int n, a = 0, b = 1, next, count = 0;
-
-    printf("Enter the number of terms: ");
-    scanf("%d", &n);
-
-    printf("Fibonacci Series:\n");
-
-    while (count < n)
+    int choice;
+    do
     {
-        printf("%d ", a);
-        next = a + b; // Calculate next term
-        a = b;
-        b = next;
-        count++;
-    }
+        printf("\nMenu:\n");
+        printf("1. Option 1\n");
+        printf("2. Option 2\n");
+        printf("3. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
 
-    printf("\n");
+        switch (choice)
+        {
+        case 1:
+            printf("You selected Option 1\n");
+            break;
+        case 2:
+            printf("You selected Option 2\n");
+            break;
+        case 3:
+            printf("Exiting...\n");
+            break;
+        default:
+            printf("Invalid choice. Try again.\n");
+        }
+    } while (choice != 3); // Repeat until user chooses to exit
+
     return 0;
 }
