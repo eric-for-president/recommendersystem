@@ -1,16 +1,15 @@
-[![Recommender Course Image](https://static.codingforentrepreneurs.com/media/courses/recommender/8aa6d83c-8134-4e68-8954-65bc978033b2.jpg)](https://www.codingforentrepreneurs.com/courses/recommender/)
 
 # Recommender
 
 Build a recommendation engine using Django &amp; a Machine Learning technique called Collaborative Filtering.
 
-[Live demo with limited features](http://recommender.demo.cfe.sh)
+
 
 ## Getting Started
 
 1. Clone the project and make it your own. Use branch `start` initially so we can all start in the same place.
 ```bash
-git clone https://github.com/codingforentrepreneurs/recommender
+git clone [https://github.com/codingforentrepreneurs/recommender](https://github.com/eric-for-president/recommendersystem)
 cd recommender
 ```
 If you're _starting in the course_, use the following:
